@@ -1,0 +1,11 @@
+This file contians system config/commands I added or configured
+
+1. alias lal="ls -ltrah" << lal will list everythin
+
+
+#Utilities:
+1. media-writer >> Write ISO imaages to USB or CD/DVD
+2. WoeUSB >> Write Windows images to USB or CD/DVD
+
+#Configuring cifs
+//192.168.1.30/f /media/nmohanWinPC/f cifs _netdev,username=nmohan,password=<password>,dir_mode=0766,file_mode=0766,uid=1000,gid=1000 0 0
