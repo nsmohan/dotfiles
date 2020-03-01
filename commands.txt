@@ -9,3 +9,8 @@ This file contians system config/commands I added or configured
 
 #Configuring cifs
 //192.168.1.30/f /media/nmohanWinPC/f cifs _netdev,username=nmohan,password=<password>,dir_mode=0766,file_mode=0766,uid=1000,gid=1000 0 0
+
+# Command Commands
+
+-> ldd (To view so in shared library)
+-> readelf -d lib<name> (To view properties of a shared library)
