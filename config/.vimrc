@@ -104,7 +104,8 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_cpp_include_dirs = ["/home/nmohan/github/NiRobot/inc"]
 let g:syntastic_c_include_dirs = ["/home/nmohan/github/NiRobot/inc"]
-let g:syntastic_py_include_dirs = ["/usr/include/python2.7"]
+let g:syntastic_cc_include_dirs = ["/home/nmohan/github/NiRobot/tst/stubs"]
+let g:syntastic_py_include_dirs = ["/usr/include/python3.6"]
 
 " Neocomplete Settings
 let g:acp_enableAtStartup = 0
