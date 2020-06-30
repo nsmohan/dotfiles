@@ -44,7 +44,7 @@ call vundle#end()            " required
 "filetype plugin indent on    " required
 
 ""----Display------
-colorscheme focuspoint 
+colorscheme OceanicNext 
 
 ""---Settings-----
 set hlsearch
@@ -57,6 +57,7 @@ filetype indent plugin on
 
 "--Set numbering format
 set number relativenumber
+set ruler
 augroup numbertoggle
   autocmd!
   autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
@@ -98,6 +99,7 @@ let g:hybrid_reduced_contrast = 1
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+set statusline+=col:\ %c
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
